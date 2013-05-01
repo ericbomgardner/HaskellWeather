@@ -1,0 +1,19 @@
+name:                HaskellWeather
+version:             1.0.0.0
+synopsis:            Command-line utility to get the current weather using forecast.io.
+-- description:         
+homepage:            ericbomgardner.com/haskell
+license:             MIT
+license-file:        LICENSE
+author:              ebomgardner
+maintainer:          eric.bomgardner@gmail.com
+-- copyright:           
+-- category:            
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable HaskellWeather
+  main-is:             Main.hs
+  -- other-modules:       
+  build-depends:       base ==4.5.*, bytestring, http-conduit, aeson, text
+  hs-source-dirs:      src
